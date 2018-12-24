@@ -28,7 +28,7 @@ layout: compress
 <body class="body">
 <div class="container">
     <header class="header">
-        <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1>
+        <h1>虚无与质感<span>无趣的生活里发现有限的乐趣</span></h1>
         <nav class="links">
             <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
             <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
@@ -67,6 +67,8 @@ layout: compress
                                 <span class="meta__author">{{ post.author }}</span>
                                 <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
                             </div>
+                            {{ post.excerpt }}
+                            <!-- more -->
                             {{ post.content }}
                         </div>
                     </div>

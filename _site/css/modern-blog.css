@@ -108,8 +108,8 @@
 	color: #3b393d;
 }
 
-.card__copy p:first-of-type {
-	font-size: 1.5em;
+.card__copy p {
+	font-size: 1.2em;
 	padding: 0 0 1em 0;
 }
 

@@ -1,7 +1,8 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
+title: 虚无与质感
+description: 无趣的生活里发现有限的乐趣
+keywords: 电影, 摄影, 旅行
+author: ReinaZ
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+excerpt_separator:  '<!-- more -->'
